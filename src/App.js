@@ -35,9 +35,15 @@ function App() {
             </div>
             <div className="weather-data-column-2">
               <ul>
-                <li>Min 18°C</li>
-                <li>Max 22°C</li>
-                <li>Wind: 5hm/h</li>
+                <li>
+                  <strong>Min:</strong> 18°C
+                </li>
+                <li>
+                  <strong>Max:</strong> 22°C
+                </li>
+                <li>
+                  <strong>Wind:</strong> 5hm/h
+                </li>
               </ul>
             </div>
           </div>
