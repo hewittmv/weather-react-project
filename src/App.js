@@ -27,7 +27,7 @@ function App() {
             <input type="submit" value="Search" className="search-button" />
           </form>
           <button>📍</button>
-          <div>
+          <div className="weather-data">
             <h1>New York</h1>
             <p>29th Sept 21:00 </p>
             <p>🌤️ 18°C Sunny </p>
