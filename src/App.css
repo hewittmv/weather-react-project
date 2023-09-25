@@ -61,8 +61,12 @@ button {
   margin-left: 2%;
 }
 .weather-data {
+  margin-top: 2%;
   display: grid;
   grid-template-columns: 2fr 1fr;
+}
+.weather-data li {
+  list-style: none;
 }
 .App-footer {
   position: fixed;
