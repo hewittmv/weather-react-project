@@ -67,6 +67,7 @@ button {
 }
 .weather-data li {
   list-style: none;
+  line-height: 45px;
 }
 .App-footer {
   position: fixed;
