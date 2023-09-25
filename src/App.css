@@ -42,6 +42,9 @@
   min-height: 300px;
   margin: 0 auto;
 }
+.search-form {
+  margin-top: 2%;
+}
 .App-footer {
   position: fixed;
   bottom: 0;
