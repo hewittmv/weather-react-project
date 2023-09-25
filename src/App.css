@@ -70,6 +70,7 @@ button {
   line-height: 45px;
 }
 .forecast-data {
+  border-top: 1px solid grey;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
 }
