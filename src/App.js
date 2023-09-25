@@ -18,7 +18,7 @@ function App() {
       </header>
       <div className="container">
         <div className="city-weather">
-          <form>
+          <form className="search-form">
             <input
               type="search"
               placeholder="enter a city"
