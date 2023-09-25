@@ -69,6 +69,10 @@ button {
   list-style: none;
   line-height: 45px;
 }
+.forecast-data {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
 .App-footer {
   position: fixed;
   bottom: 0;
