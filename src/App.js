@@ -42,11 +42,21 @@ function App() {
             </div>
           </div>
           <div className="forecast-data">
-            <div>Mon 🌤️ 18°C</div>
-            <div>Tue 🌦️ 19°C</div>
-            <div>Wed 🌤️ 20°C</div>
-            <div>Thu ❄️ 0°C</div>
-            <div>Fri 🌨️ 0°C</div>
+            <div className="forecast-day">
+              <div>Mon </div> <div>🌤️</div> <div>18°C</div>
+            </div>
+            <div className="forecast-day">
+              <div>Tue </div> <div>🌤️</div> <div>20°C</div>
+            </div>
+            <div className="forecast-day">
+              <div>Wed </div> <div>☁️</div> <div>17°C</div>
+            </div>
+            <div className="forecast-day">
+              <div>Thu </div> <div>🌧️</div> <div>16°C</div>
+            </div>
+            <div className="forecast-day">
+              <div>Fri </div> <div>⛈️</div> <div>14°C</div>
+            </div>
           </div>
         </div>
       </div>
