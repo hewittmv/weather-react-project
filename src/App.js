@@ -6,7 +6,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <h1>Weather App</h1>
+        <p>Weather App</p>
         <a
           className="github-link"
           href="https://github.com/hewittmv/weather-react-project"
@@ -18,7 +18,7 @@ function App() {
       </header>
       <footer className="App-footer">
         <img src={logo} className="App-logo" alt="logo" />
-        <h1>Weather App</h1>
+        <p>Weather App</p>
         <a
           className="github-link"
           href="https://github.com/hewittmv/weather-react-project"
