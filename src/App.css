@@ -57,7 +57,7 @@ button {
   border-radius: 50%;
   border: 1px solid grey;
   display: inline-flex;
-  margin-left: 5%;
+  margin-left: 2%;
 }
 .App-footer {
   position: fixed;
