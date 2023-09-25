@@ -8,7 +8,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <p className="text-gradient">Weather App</p>
         <a
-          className="github-link"
+          className="github-link text-gradient"
           href="https://github.com/hewittmv/weather-react-project"
           target="_blank"
           rel="noopener noreferrer"
@@ -18,9 +18,9 @@ function App() {
       </header>
       <footer className="App-footer">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>Weather App</p>
+        <p className="text-gradient">Weather App</p>
         <a
-          className="github-link"
+          className="github-link text-gradient"
           href="https://github.com/hewittmv/weather-react-project"
           target="_blank"
           rel="noopener noreferrer"
