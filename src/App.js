@@ -15,13 +15,13 @@ function App() {
         >
           Open Source Code by VHM
         </a>
-        <div className="city-weather">
-          <form>
-            <input type="search" placeholder="enter a city" />
-            <input type="submit" value="Search" />
-          </form>
-        </div>
       </header>
+      <div className="city-weather">
+        <form>
+          <input type="search" placeholder="enter a city" />
+          <input type="submit" value="Search" />
+        </form>
+      </div>
       <footer className="App-footer">
         <img src={logo} className="App-logo" alt="logo" />
         <p className="text-gradient">Weather App</p>
