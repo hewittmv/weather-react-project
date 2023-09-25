@@ -19,8 +19,13 @@ function App() {
       <div className="container">
         <div className="city-weather">
           <form>
-            <input type="search" placeholder="enter a city" /> {""}
-            <input type="submit" value="Search" />
+            <input
+              type="search"
+              placeholder="enter a city"
+              className="search-input"
+            />{" "}
+            {""}
+            <input type="submit" value="Search" className="search-button" />
           </form>
         </div>
       </div>
