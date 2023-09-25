@@ -33,6 +33,13 @@ function App() {
               <p>29th Sept 21:00 </p>
               <p>🌤️ 18°C Sunny </p>
             </div>
+            <div className="weather-data-column-2">
+              <ul>
+                <li>Min 18°C</li>
+                <li>Max 22°C</li>
+                <li>Wind: 5hm/h</li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
