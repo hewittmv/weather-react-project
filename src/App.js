@@ -41,6 +41,13 @@ function App() {
               </ul>
             </div>
           </div>
+          <div className="forecast-data">
+            <div>Mon 🌤️ 18°C</div>
+            <div>Tue 🌦️ 19°C</div>
+            <div>Wed 🌤️ 20°C</div>
+            <div>Thu ❄️ 0°C</div>
+            <div>Fri 🌨️ 0°C</div>
+          </div>
         </div>
       </div>
       <footer className="App-footer">
