@@ -13,13 +13,19 @@
   }
 }
 
-.App-header {
+.App-header,
+.App-footer {
   background-color: #282c34;
   min-height: 10vh;
   display: flex;
   align-items: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+.App-footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
 
 .github-link {

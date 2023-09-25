@@ -16,7 +16,18 @@ function App() {
           Open Source Code by VHM
         </a>
       </header>
-      <footer className="app-footer"></footer>
+      <footer className="App-footer">
+        <img src={logo} className="App-logo" alt="logo" />
+        <h1>Weather App</h1>
+        <a
+          className="github-link"
+          href="https://github.com/hewittmv/weather-react-project"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Open Source Code by VHM
+        </a>
+      </footer>
     </div>
   );
 }
