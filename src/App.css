@@ -36,6 +36,8 @@
 .city-weather {
   border: 1px solid grey;
   max-width: 600px;
+  min-height: 300px;
+  margin: 10% auto;
 }
 .App-footer {
   position: fixed;
