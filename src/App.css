@@ -44,9 +44,17 @@
 }
 .search-form {
   margin-top: 2%;
+  display: inline-flex;
 }
 .search-input {
   width: 300px;
+}
+button {
+  padding: 0.5%;
+  border-radius: 50%;
+  border: 1px solid grey;
+  display: inline-flex;
+  margin-left: 5%;
 }
 .App-footer {
   position: fixed;
