@@ -19,7 +19,7 @@ function App() {
       <div className="container">
         <div className="city-weather">
           <form>
-            <input type="search" placeholder="enter a city" />
+            <input type="search" placeholder="enter a city" /> {""}
             <input type="submit" value="Search" />
           </form>
         </div>
