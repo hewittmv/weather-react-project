@@ -60,6 +60,10 @@ button {
   display: inline-flex;
   margin-left: 2%;
 }
+.weather-data {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
 .App-footer {
   position: fixed;
   bottom: 0;
