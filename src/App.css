@@ -33,11 +33,14 @@
   top: 0;
   width: 100%;
 }
+.container {
+  margin-top: 15%;
+}
 .city-weather {
   border: 1px solid grey;
   max-width: 600px;
   min-height: 300px;
-  margin: 10% auto;
+  margin: 0 auto;
 }
 .App-footer {
   position: fixed;
