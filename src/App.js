@@ -16,6 +16,7 @@ function App() {
           Open Source Code by VHM
         </a>
       </header>
+      <footer className="app-footer"></footer>
     </div>
   );
 }
