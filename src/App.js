@@ -6,7 +6,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p className="text-gradient">Weather App</p>
+        <p className="text-gradient">Weather App |</p>
         <a
           className="github-link text-gradient"
           href="https://github.com/hewittmv/weather-react-project"
@@ -31,7 +31,7 @@ function App() {
       </div>
       <footer className="App-footer">
         <img src={logo} className="App-logo" alt="logo" />
-        <p className="text-gradient">Weather App</p>
+        <p className="text-gradient">Weather App |</p>
         <a
           className="github-link text-gradient"
           href="https://github.com/hewittmv/weather-react-project"

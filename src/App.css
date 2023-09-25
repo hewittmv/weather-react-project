@@ -45,6 +45,9 @@
 .search-form {
   margin-top: 2%;
 }
+.search-input {
+  width: 300px;
+}
 .App-footer {
   position: fixed;
   bottom: 0;
