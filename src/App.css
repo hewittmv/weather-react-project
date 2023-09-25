@@ -1,6 +1,12 @@
 .App {
   text-align: center;
 }
+.text-gradient {
+  background: linear-gradient(to right, #ff8a00 0%, #dd4c4f 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 
 .App-logo {
   height: 10vmin;
