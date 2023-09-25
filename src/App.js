@@ -21,7 +21,7 @@ function App() {
           <form className="search-form">
             <input
               type="search"
-              placeholder="enter a city"
+              placeholder="Enter a City"
               className="search-input"
             />
             <input type="submit" value="Search" className="search-button" />
