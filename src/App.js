@@ -27,6 +27,7 @@ function App() {
             {""}
             <input type="submit" value="Search" className="search-button" />
           </form>
+          <button>📍</button>
         </div>
       </div>
       <footer className="App-footer">
