@@ -8,12 +8,12 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <h1>Weather App</h1>
         <a
-          className="App-link"
-          href="https://reactjs.org"
+          className="github-link"
+          href="https://github.com/hewittmv/weather-react-project"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Open Source Code by VHM
         </a>
       </header>
     </div>
