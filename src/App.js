@@ -28,9 +28,11 @@ function App() {
           </form>
           <button>📍</button>
           <div className="weather-data">
-            <h1>New York</h1>
-            <p>29th Sept 21:00 </p>
-            <p>🌤️ 18°C Sunny </p>
+            <div className="weather-data-column-1">
+              <h1>New York</h1>
+              <p>29th Sept 21:00 </p>
+              <p>🌤️ 18°C Sunny </p>
+            </div>
           </div>
         </div>
       </div>
