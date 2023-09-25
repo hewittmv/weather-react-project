@@ -5,15 +5,13 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p className="text-gradient">Weather App |</p>
         <a
           className="github-link text-gradient"
           href="https://github.com/hewittmv/weather-react-project"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Open Source Code by VHM
+          VHM
         </a>
       </header>
       <div className="container">
