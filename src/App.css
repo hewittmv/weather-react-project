@@ -71,6 +71,7 @@ button {
 }
 .forecast-data {
   margin-top: 2%;
+  padding: 1.5%;
   border-top: 1px solid grey;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
