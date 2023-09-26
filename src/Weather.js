@@ -35,7 +35,11 @@ export default function Weather() {
               <h1>New York</h1>
               <p className="current-date-time">29th Sept 2023 21:00 </p>
               <p className="weather-description">
-                🌤️ 18 <a href="/">°C</a> <a href="/"> °F </a>Sunny{" "}
+                <img
+                  src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/broken-clouds-day.png"
+                  alt="broken clouds"
+                />
+                18 <a href="/">°C</a> <a href="/"> °F </a>Sunny{" "}
               </p>
             </div>
             <div className="col-6">
