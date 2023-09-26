@@ -23,7 +23,11 @@ function App() {
               className="search-input"
               autoFocus
             />
-            <input type="submit" value="Search" className="search-button" />
+            <input
+              type="submit"
+              value="Search"
+              className="search-button btn btn-primary"
+            />
           </form>
           <button>📍</button>
           <div className="weather-data">
