@@ -21,6 +21,7 @@ function App() {
               type="search"
               placeholder="Enter a City"
               className="search-input"
+              autoFocus
             />
             <input type="submit" value="Search" className="search-button" />
           </form>
