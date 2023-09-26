@@ -21,7 +21,6 @@
   padding: 7px;
   border-radius: 50%;
   border: 1px solid grey;
-
   cursor: pointer;
 }
 .weather-data {
@@ -43,9 +42,7 @@ h1 {
   padding: 0;
   margin-top: 0;
 }
-.weather-description {
-  font-size: 140%;
-}
+
 .forecast-data {
   margin: 2%;
   padding: 1.5%;
@@ -55,4 +52,12 @@ h1 {
 }
 .forecast-day {
   text-align: center;
+}
+.temperature {
+  font-size: 45px;
+}
+.unit {
+  font-size: 15px;
+  position: relative;
+  top: -23px;
 }
