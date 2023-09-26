@@ -7,24 +7,25 @@ export default function Weather() {
       <div className="city-weather">
         <div className="container">
           <form className="search-form">
-            <div className="row"></div>
-            <div className="col-7">
-              <input
-                type="search"
-                placeholder="Enter a City"
-                className="search-input"
-                autoFocus
-              />
-            </div>
-            <div className="col-3">
-              <input
-                type="submit"
-                value="Search"
-                className="search-button btn btn-primary"
-              />
-            </div>
-            <div className="col-2">
-              <button className="my-location">📍</button>
+            <div className="row">
+              <div className="col-7">
+                <input
+                  type="search"
+                  placeholder="Enter a City"
+                  className="search-input"
+                  autoFocus
+                />
+              </div>
+              <div className="col-3">
+                <input
+                  type="submit"
+                  value="Search"
+                  className="search-button btn btn-primary"
+                />
+              </div>
+              <div className="col-2">
+                <button className="my-location">📍</button>
+              </div>
             </div>
           </form>
         </div>
