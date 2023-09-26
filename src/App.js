@@ -34,7 +34,9 @@ function App() {
             <div className="weather-data-column-1">
               <h1>New York</h1>
               <p className="current-date-time">29th Sept 2023 21:00 </p>
-              <p className="weather-description">🌤️ 18°C Sunny </p>
+              <p className="weather-description">
+                🌤️ 18 <a href="/">°C</a> <a href="/"> °F </a>Sunny{" "}
+              </p>
             </div>
             <div className="weather-data-column-2">
               <ul>
