@@ -29,7 +29,7 @@ function App() {
               className="search-button btn btn-primary"
             />
           </form>
-          <button>📍</button>
+          <button className="my-location">📍</button>
           <div className="weather-data">
             <div className="weather-data-column-1">
               <h1>New York</h1>
