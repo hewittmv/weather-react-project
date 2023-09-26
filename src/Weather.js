@@ -8,7 +8,7 @@ export default function Weather() {
         <div className="container">
           <form className="search-form">
             <div className="row">
-              <div className="col-7">
+              <div className="col-9">
                 <input
                   type="search"
                   placeholder="Enter a City"
@@ -16,14 +16,14 @@ export default function Weather() {
                   autoFocus
                 />
               </div>
-              <div className="col-3">
+              <div className="col-2">
                 <input
                   type="submit"
                   value="Search"
                   className="search-button btn btn-primary"
                 />
               </div>
-              <div className="col-2">
+              <div className="col-1">
                 <button className="my-location">📍</button>
               </div>
             </div>
