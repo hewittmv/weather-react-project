@@ -4,6 +4,7 @@ import axios from "axios";
 
 export default function Weather() {
   const [weatherData, setWeatherData] = useState({ ready: false });
+  const [city, setCity] = useState(props.defaultCity);
   return (
     <div className="Weather">
       <div className="city-weather">
