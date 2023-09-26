@@ -3,6 +3,7 @@ import "./Weather.css";
 import axios from "axios";
 
 export default function Weather() {
+  const [weatherData, setWeatherData] = useState({ ready: false });
   return (
     <div className="Weather">
       <div className="city-weather">
