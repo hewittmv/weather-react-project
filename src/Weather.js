@@ -39,8 +39,10 @@ export default function Weather() {
                   src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/broken-clouds-day.png"
                   alt="broken clouds"
                 />
-                18 <a href="/">°C</a> <a href="/"> °F </a>Sunny{" "}
+                <span className="temperature">18 </span>
+                <span className="unit">°C </span>
               </p>
+              <p className="description">Broken Clouds</p>
             </div>
             <div className="col-6">
               <ul>
