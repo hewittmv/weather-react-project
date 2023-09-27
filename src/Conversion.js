@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 
 export default function Conversion(props) {
   const [unit, setUnit] = useState("celsius");
@@ -23,7 +23,6 @@ export default function Conversion(props) {
           <a href="/" onClick={showFahrenheit}>
             °F
           </a>{" "}
-          |
         </span>
       </div>
     );
