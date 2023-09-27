@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./Weather.css";
 import axios from "axios";
 
-export default function Weather() {
+export default function Weather(props) {
   const [weatherData, setWeatherData] = useState({});
   const [ready, setReady] = useState(false);
   const [city, setCity] = useState("");
@@ -148,7 +148,7 @@ export default function Weather() {
             <div className="row">
               <div className="col-8">
                 <h1>{weatherData.city}</h1>
-                <p className="current-date-time">29th Sept 2023 21:00 </p>
+                <p className="current-date-time"> 29th Sept 23 17:15 </p>
                 <p className="weather-description">
                   <img
                     src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/broken-clouds-day.png"
@@ -164,7 +164,7 @@ export default function Weather() {
               <div className="col-4">
                 <ul>
                   <li>
-                    <strong>Feels Like:</strong> {weatherData.humidity}
+                    <strong>Feels Like:</strong> {weatherData.temperature}
                   </li>
                   <li>
                     <strong>Humidity</strong> {weatherData.humidity}
