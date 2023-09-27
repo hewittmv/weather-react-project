@@ -43,10 +43,12 @@
   bottom: 0;
   width: 100%;
 }
+.container {
+  margin-top: 10%;
+}
 .city-weather {
   border: 1px solid grey;
   max-width: 600px;
-
   margin-top: 0 auto;
 
   backdrop-filter: blur(20px);
