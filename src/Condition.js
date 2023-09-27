@@ -1,5 +1,6 @@
 import React from "react";
 import "./Weather.css";
+import FormattedDate from "./FormattedDate";
 
 export default function Condition(props) {
   return (
