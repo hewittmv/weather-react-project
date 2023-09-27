@@ -32,9 +32,9 @@ export default function FormattedDate(props) {
   let year = props.date.getFullYear();
   return (
     <div className="FormattedDate">
-      {weekDay} wed
-      {dayOfMonth} 27
-      {month} sept
+      {weekDay}
+      {dayOfMonth}
+      {month}
       <div>
         {hours}:{minutes} /{year}
       </div>
