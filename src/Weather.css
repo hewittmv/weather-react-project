@@ -1,13 +1,7 @@
 .Weather {
-  margin-top: 15%;
+  margin-top: 2%;
 }
-.city-weather {
-  border: 1px solid grey;
-  max-width: 600px;
-  min-height: 300px;
-  margin: 0 auto;
-  backdrop-filter: blur(20px);
-}
+
 .search-form {
   margin-top: 2%;
 }
