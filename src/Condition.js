@@ -9,7 +9,8 @@ export default function Condition(props) {
         <div className="row">
           <div className="col-8">
             <h1>{props.data.city}</h1>
-            <p className="current-date-time"> 29th Sept 23 17:15 </p>
+            <FormattedDate date={props.data.date} />
+
             <p className="weather-description">
               <img src={props.data.icon} alt={props.data.description} />
               <span className="temperature">{props.data.temperature} </span>
