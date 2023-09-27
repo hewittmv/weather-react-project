@@ -15,7 +15,7 @@ function App() {
           VHM
         </a>
       </header>
-      <Weather />
+      <Weather defaultCity="Toronto" />
       <footer className="App-footer">
         <img src={logo} className="App-logo" alt="logo" />
         <p className="text-gradient">Weather App |</p>
