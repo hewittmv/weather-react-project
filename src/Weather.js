@@ -4,9 +4,9 @@ import axios from "axios";
 import Forecast from "./Forecast";
 import Condition from "./Condition";
 
-export default function Weather() {
+export default function Weather(props) {
   const [weatherData, setWeatherData] = useState({ ready: false });
-  const [city, setCity] = useState("");
+  const [city, setCity] = useState(props.data.city);
 
   function showWeather(response) {
     setWeatherData({
@@ -146,9 +146,9 @@ export default function Weather() {
               </div>
             </form>
           </div>
-          <Condition />
+          <Condition date={weatherData} />
 
-          <Forecast />
+          <Forecast city={weatherData.city} />
         </div>
       </div>
     );
