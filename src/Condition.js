@@ -16,7 +16,7 @@ export default function Condition(props) {
               <span className="temperature">
                 {Math.round(props.data.temperature)}{" "}
               </span>
-              <span className="unit">°C </span>
+              <span className="units">°C </span>
             </p>
             <p className="description">{props.data.description}</p>
           </div>
