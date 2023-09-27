@@ -1,22 +1,23 @@
 import React, { useState } from "react";
 import "./Weather.css";
 import axios from "axios";
+import Forecast from "./Forecast";
 
-export default function Weather(props) {
-  const [weatherData, setWeatherData] = useState({});
-  const [ready, setReady] = useState(false);
+export default function Weather() {
+  const [weatherData, setWeatherData] = useState({ ready: false });
   const [city, setCity] = useState("");
 
   function showWeather(response) {
-    setReady(true);
     setWeatherData({
+      ready: true,
       city: response.data.city,
+      date: new Date(response.data.time * 1000),
       temperature: response.data.temperature.current,
       description: response.data.condition.description,
       humidity: response.data.temperature.humidity,
       feelsLike: response.data.temperature.feels_like,
       wind: response.data.wind.speed,
-      icon: "http://shecodes-assets.s3.amazonaws.com/api/weather/icons/broken-clouds-day.png",
+      icon: response.data.condition.icon_url,
     });
   }
 
@@ -115,7 +116,7 @@ export default function Weather(props) {
     </div>
   );
 
-  if (ready) {
+  if (weatherData.ready) {
     return (
       <div className="Weather">
         <div className="city-weather">
@@ -176,23 +177,7 @@ export default function Weather(props) {
               </div>
             </div>
           </div>
-          <div className="forecast-data">
-            <div className="forecast-day">
-              <div>Mon </div> <div>🌤️</div> <div>18°C</div>
-            </div>
-            <div className="forecast-day">
-              <div>Tue </div> <div>🌤️</div> <div>20°C</div>
-            </div>
-            <div className="forecast-day">
-              <div>Wed </div> <div>☁️</div> <div>17°C</div>
-            </div>
-            <div className="forecast-day">
-              <div>Thu </div> <div>🌧️</div> <div>16°C</div>
-            </div>
-            <div className="forecast-day">
-              <div>Fri </div> <div>⛈️</div> <div>14°C</div>
-            </div>
-          </div>
+          <Forecast />
         </div>
       </div>
     );
