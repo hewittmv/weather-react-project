@@ -13,7 +13,9 @@ export default function Condition(props) {
 
             <p className="weather-description">
               <img src={props.data.icon} alt={props.data.description} />
-              <span className="temperature">{props.data.temperature} </span>
+              <span className="temperature">
+                {Math.round(props.data.temperature)}{" "}
+              </span>
               <span className="unit">°C </span>
             </p>
             <p className="description">{props.data.description}</p>

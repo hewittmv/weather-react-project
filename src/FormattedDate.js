@@ -32,11 +32,9 @@ export default function FormattedDate(props) {
   let year = props.date.getFullYear();
   return (
     <div className="FormattedDate">
-      {weekDay}
-      {dayOfMonth}
-      {month}
+      {weekDay} {dayOfMonth} {month}
       <div>
-        {hours}:{minutes} /{year}
+        {hours}:{minutes}/ {year}
       </div>
     </div>
   );
