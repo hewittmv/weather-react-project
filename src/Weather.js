@@ -60,7 +60,7 @@ export default function Weather() {
         </div>
         <div className="weather-data">
           <div className="row">
-            <div className="col-9">
+            <div className="col-8">
               <h1> Loading City... </h1>
               <p className="current-date-time">
                 {" "}
@@ -79,7 +79,7 @@ export default function Weather() {
                 <em>Loading weather</em>{" "}
               </p>
             </div>
-            <div className="col-3">
+            <div className="col-4">
               <ul>
                 <li>
                   <strong>Feels Like:</strong> ∽ °C
@@ -146,7 +146,7 @@ export default function Weather() {
           </div>
           <div className="weather-data">
             <div className="row">
-              <div className="col-6">
+              <div className="col-8">
                 <h1>{weatherData.city}</h1>
                 <p className="current-date-time">29th Sept 2023 21:00 </p>
                 <p className="weather-description">
@@ -161,7 +161,7 @@ export default function Weather() {
                 </p>
                 <p className="description">{weatherData.description}</p>
               </div>
-              <div className="col-6">
+              <div className="col-4">
                 <ul>
                   <li>
                     <strong>Feels Like:</strong> {weatherData.humidity}
