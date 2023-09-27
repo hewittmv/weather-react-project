@@ -19,7 +19,7 @@
   cursor: pointer;
 }
 .Condition {
-  margin: 2%;
+  margin-top: 2%;
   padding: 2%;
 }
 
@@ -53,5 +53,15 @@ h1 {
 .units {
   font-size: 15px;
   position: relative;
-  top: -23px;
+  top: 12px;
+}
+.temperature-conversion {
+  display: inline-flex;
+}
+.description {
+  font-size: 25px;
+  margin-bottom: 0;
+}
+.weather-description {
+  margin-bottom: 0;
 }
