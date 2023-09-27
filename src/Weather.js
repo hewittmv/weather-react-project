@@ -6,7 +6,7 @@ import Condition from "./Condition";
 
 export default function Weather(props) {
   const [weatherData, setWeatherData] = useState({ ready: false });
-  const [city, setCity] = useState(props.data.city);
+  const [city, setCity] = useState(props.defaultCity);
 
   function showWeather(response) {
     setWeatherData({
@@ -22,11 +22,14 @@ export default function Weather(props) {
     });
   }
 
-  function handleSubmit(event) {
-    event.preventDefault();
+  function Search() {
     let apiKey = "o00a45f3c7757cta20b5ccabe4f8ba48";
     let apiUrl = `https://api.shecodes.io/weather/v1/current?query=${city}&key=${apiKey}&units=metric`;
     axios.get(apiUrl).then(showWeather);
+  }
+  function handleSubmit(event) {
+    event.preventDefault();
+    Search();
   }
 
   function SearchCity(event) {
@@ -63,7 +66,7 @@ export default function Weather(props) {
         <div className="weather-data">
           <div className="row">
             <div className="col-8">
-              <h1> Loading City... </h1>
+              <h1> City </h1>
               <p className="current-date-time">
                 {" "}
                 <em>loading date & time...</em>{" "}
