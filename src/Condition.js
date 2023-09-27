@@ -23,13 +23,14 @@ export default function Condition(props) {
           <div className="col-4">
             <ul>
               <li>
-                <strong>Feels Like:</strong> {props.data.feelsLike}
+                <strong>Feels Like:</strong> {Math.round(props.data.feelsLike)}
+                °C
               </li>
               <li>
-                <strong>Humidity</strong> {props.data.humidity}
+                <strong>Humidity:</strong> {Math.round(props.data.humidity)} %
               </li>
               <li>
-                <strong>Wind:</strong> {props.data.wind}hm/h
+                <strong>Wind:</strong> {Math.round(props.data.wind)}km/h
               </li>
             </ul>
           </div>
