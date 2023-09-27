@@ -4,6 +4,7 @@
 
 .search-form {
   margin-top: 2%;
+  margin-left: 2%;
 }
 .search-input {
   width: 100%;
@@ -17,13 +18,12 @@
   border: 1px solid grey;
   cursor: pointer;
 }
-.weather-data {
-  margin-top: 2%;
-  margin-left: 3%;
-  display: grid;
-  grid-template-columns: 2fr 1fr;
+.Condition {
+  margin: 2%;
+  padding: 2%;
 }
-.weather-data li {
+
+.Condition li {
   list-style: none;
   line-height: 45px;
 }
