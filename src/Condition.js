@@ -12,17 +12,14 @@ export default function Condition(props) {
           <FormattedDate date={props.data.date} />
 
           <p className="weather-description">
-            <img src={props.data.icon} alt={props.data.description} />
-            <span className="main-temp">
-              {" "}
-              <Conversion celsius={props.data.temperature} />{" "}
-            </span>
+            <img src={props.data.icon} alt={props.data.description} />{" "}
+            <Conversion celsius={props.data.temperature} />{" "}
           </p>
           <p className="description">{props.data.description}</p>
         </div>
         <div className="col-6">
           <ul>
-            <li className="mt-2">
+            <li className="mt-2 feels-like-temp">
               <strong>Feels Like:</strong>{" "}
               <Conversion celsius={props.data.temperature} />
             </li>

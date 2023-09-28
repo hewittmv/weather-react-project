@@ -71,3 +71,8 @@ h1 {
 .weather-description .temperature {
   font-size: 45px;
 }
+.feels-like-temp .units {
+  font-size: 8px;
+  position: relative;
+  top: -4px;
+}
