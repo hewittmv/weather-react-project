@@ -72,7 +72,10 @@ h1 {
   font-size: 45px;
 }
 .feels-like-temp .units {
-  font-size: 8px;
+  font-size: 10px;
   position: relative;
   top: -4px;
+}
+li {
+  font-size: 20px;
 }
