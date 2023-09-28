@@ -19,7 +19,7 @@ export default function Condition(props) {
         </div>
         <div className="col-4">
           <ul>
-            <li>
+            <li className="mt-2">
               <strong>Feels Like:</strong> {Math.round(props.data.feelsLike)}
               °C
             </li>
