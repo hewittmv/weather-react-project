@@ -13,15 +13,18 @@ export default function Condition(props) {
 
           <p className="weather-description">
             <img src={props.data.icon} alt={props.data.description} />
-            <Conversion celsius={props.data.temperature} />
+            <span className="main-temp">
+              {" "}
+              <Conversion celsius={props.data.temperature} />{" "}
+            </span>
           </p>
           <p className="description">{props.data.description}</p>
         </div>
         <div className="col-6">
           <ul>
             <li className="mt-2">
-              <strong>Feels Like:</strong> {Math.round(props.data.feelsLike)}
-              °C
+              <strong>Feels Like:</strong>{" "}
+              <Conversion celsius={props.data.temperature} />
             </li>
             <li>
               <strong>Humidity:</strong> {Math.round(props.data.humidity)} %

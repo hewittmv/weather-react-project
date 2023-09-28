@@ -29,7 +29,7 @@ export default function Conversion(props) {
     );
   } else {
     return (
-      <div className="TemperatureConversion">
+      <div className="temperature-conversion">
         <span className="temperature">{Math.round(fahrenheit())}</span>
         <span className="units">
           °F |{" "}
