@@ -61,7 +61,11 @@ export default function Weather(props) {
             </div>
             <div className="col-2">
               <button className="my-location">
-                <FontAwesomeIcon icon={faCrosshairs}></FontAwesomeIcon>
+                <FontAwesomeIcon
+                  icon={faCrosshairs}
+                  style={{ color: "#e5e7eb" }}
+                  size="xl"
+                ></FontAwesomeIcon>
               </button>
             </div>
           </div>
