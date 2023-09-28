@@ -7,7 +7,7 @@ export default function Condition(props) {
   return (
     <div className="Condition">
       <div className="row">
-        <div className="col-8">
+        <div className="col-6">
           <h1>{props.data.city}</h1>
           <FormattedDate date={props.data.date} />
 
@@ -17,7 +17,7 @@ export default function Condition(props) {
           </p>
           <p className="description">{props.data.description}</p>
         </div>
-        <div className="col-4">
+        <div className="col-6">
           <ul>
             <li className="mt-2">
               <strong>Feels Like:</strong> {Math.round(props.data.feelsLike)}
