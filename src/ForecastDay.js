@@ -25,10 +25,11 @@ export default function ForecastDay(props) {
         <img
           src={props.data.condition.icon_url}
           alt={props.data.condition.description}
+          class="img-fluid"
         />
       </div>{" "}
       <div className="forecast-temperatures">
-        <span className="forecast-minTemp">{minTemp()}</span>|
+        <span className="forecast-minTemp">{minTemp()}</span> |
         <span className="forecast-maxTemp">{maxTemp()}</span>
       </div>
     </div>

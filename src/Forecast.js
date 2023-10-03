@@ -18,17 +18,19 @@ export default function Forecast(props) {
   if (loaded) {
     return (
       <div className="forecast">
-        {forecast.map(function (dailyForecast, index) {
-          if (index < 5) {
-            return (
-              <div className="forecast-data" key={index}>
-                <ForecastDay data={dailyForecast} />{" "}
-              </div>
-            );
-          } else {
-            return null;
-          }
-        })}
+        <div className="row">
+          {forecast.map(function (dailyForecast, index) {
+            if (index < 5) {
+              return (
+                <div className="col" key={index}>
+                  <ForecastDay data={dailyForecast} />{" "}
+                </div>
+              );
+            } else {
+              return null;
+            }
+          })}
+        </div>
       </div>
     );
   } else {
