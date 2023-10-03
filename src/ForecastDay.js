@@ -3,16 +3,16 @@ import "./Weather.css";
 
 export default function ForecastDay(props) {
   function maxTemp() {
-    let temperature = Math.round(props.data.daily.temperature.maximum);
+    let temperature = Math.round(props.data.temperature.maximum);
     return `${temperature}°`;
   }
 
   function minTemp() {
-    let temperature = Math.round(props.data.daily.temperature.minimum);
+    let temperature = Math.round(props.data.temperature.minimum);
     return `${temperature}°`;
   }
   function weekDay() {
-    let date = new Date(props.data.daily.time * 1000);
+    let date = new Date(props.data.time * 1000);
     let day = date.getDay();
     let days = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"];
     return days[day];
@@ -21,7 +21,7 @@ export default function ForecastDay(props) {
   return (
     <div className="forecast-day">
       <div className="week-day"> {weekDay()} </div>{" "}
-      <div className="forecast-icon">{props.data.daily.condition.icon_url}</div>{" "}
+      <div className="forecast-icon">{props.data.condition.icon_url}</div>{" "}
       <div className="forecast-temperatures">
         <span className="forecast-minTemp">{minTemp()}</span>|
         <span className="forecast-maxTemp">{maxTemp()}</span>
