@@ -21,9 +21,7 @@ export default function ForecastDay(props) {
   return (
     <div className="forecast-day">
       <div className="week-day"> {weekDay()} </div>{" "}
-      <div className="forecast-icon">
-        {props.data.daily[0].condition.icon_url}
-      </div>{" "}
+      <div className="forecast-icon">{props.data.daily.condition.icon_url}</div>{" "}
       <div className="forecast-temperatures">
         <span className="forecast-minTemp">{minTemp()}</span>|
         <span className="forecast-maxTemp">{maxTemp()}</span>
