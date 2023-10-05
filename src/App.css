@@ -31,33 +31,33 @@
 
 .App-header,
 .App-footer {
-  min-height: 5vh;
+  min-height: 5%;
   display: flex;
   align-items: center;
-  color: white;
+
+  width: 100%;
 }
 .App-header {
   backdrop-filter: blur(20px);
-  position: fixed;
+  position: sticky;
   top: 0;
-  width: 100%;
 }
 .App-footer {
   backdrop-filter: blur(70px);
+  color: white;
+  position: sticky;
+  bottom: 0;
 }
 
-.App-footer {
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-}
-.container {
-  margin-top: 10%;
-}
 .city-weather {
+  max-width: 100vh;
+  margin-top: 1%;
+  margin-bottom: 2%;
+  margin-left: 3%;
+  margin-right: 3%;
+
+  padding-bottom: 1%;
   border: 1px solid grey;
-  max-width: 600px;
-  margin-top: 0 auto;
   backdrop-filter: blur(20px);
 }
 .github-link {

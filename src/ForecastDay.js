@@ -4,12 +4,12 @@ import "./Forecast.css";
 export default function ForecastDay(props) {
   function maxTemp() {
     let temperature = Math.round(props.data.temperature.maximum);
-    return `${temperature}°`;
+    return `${temperature}°C`;
   }
 
   function minTemp() {
     let temperature = Math.round(props.data.temperature.minimum);
-    return `${temperature}°`;
+    return `${temperature}°C`;
   }
   function weekDay() {
     let date = new Date(props.data.time * 1000);

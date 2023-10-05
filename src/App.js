@@ -19,11 +19,11 @@ function App() {
           </a>
         </div>
       </header>
-      <div className="container">
-        <div className="city-weather">
-          <Weather defaultCity="Toronto" />
-        </div>
+
+      <div className="city-weather">
+        <Weather defaultCity="Toronto" />
       </div>
+
       <footer className="App-footer">
         <img src={logo} className="App-logo" alt="logo" />
 
