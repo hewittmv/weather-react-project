@@ -95,3 +95,6 @@ li {
   text-decoration: none;
   color: white;
 }
+.github-icon:hover {
+  filter: drop-shadow(0 0 0.75rem rgb(38, 229, 246));
+}

@@ -36,6 +36,7 @@ function App() {
             icon={faGithub}
             style={{ color: "#e5e7eb" }}
             size="xl"
+            className="github-icon"
           ></FontAwesomeIcon>
         </a>
       </footer>
