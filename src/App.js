@@ -1,6 +1,8 @@
 import logo from "./logo.svg";
 import "./App.css";
 import Weather from "./Weather";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
 function App() {
   return (
@@ -29,7 +31,12 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Open Source Code by VHM
+          Open Source Code{" "}
+          <FontAwesomeIcon
+            icon={faGithub}
+            style={{ color: "#e5e7eb" }}
+            size="xl"
+          ></FontAwesomeIcon>
         </a>
       </footer>
     </div>
