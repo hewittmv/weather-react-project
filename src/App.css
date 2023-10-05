@@ -9,7 +9,7 @@
   -webkit-text-fill-color: transparent;
 }
 .initials {
-  font-size: 30px;
+  font-size: 2rem;
   margin: 2%;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   display: flex;
@@ -58,12 +58,11 @@
   border: 1px solid grey;
   max-width: 600px;
   margin-top: 0 auto;
-
   backdrop-filter: blur(20px);
 }
 .github-link {
   margin-left: 3%;
-  font-size: 25px;
+  font-size: 1.25rem;
   text-decoration: none;
   color: white;
 }
