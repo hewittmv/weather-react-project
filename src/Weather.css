@@ -84,9 +84,9 @@ li {
 .search-button {
   background-image: linear-gradient(
     to right,
-    #1a2980 0%,
-    #7ed4ec 51%,
-    #1a2980 100%
+    #245bd4 0%,
+    #b4d8f3 51%,
+    #2a6bec 100%
   );
   transition: 0.5s;
   background-size: 200% auto;
