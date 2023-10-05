@@ -35,15 +35,6 @@ h1 {
   margin-top: 0;
 }
 
-.forecast {
-  margin: 2%;
-  padding: 1.5%;
-  border-top: 1px solid grey;
-}
-.forecast-day {
-  text-align: center;
-}
-
 .units {
   font-size: 15px;
   position: relative;
@@ -90,8 +81,4 @@ li {
   background-position: right center; /* change the direction of the change here */
   color: #fff;
   text-decoration: none;
-}
-
-.github-icon:hover {
-  filter: drop-shadow(0 0 0.75rem rgb(38, 229, 246));
 }

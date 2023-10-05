@@ -31,13 +31,13 @@
 
 .App-header,
 .App-footer {
-  min-height: 10vh;
+  min-height: 5vh;
   display: flex;
   align-items: center;
   color: white;
 }
 .App-header {
-  backdrop-filter: blur(30px);
+  backdrop-filter: blur(20px);
   position: fixed;
   top: 0;
   width: 100%;
@@ -66,6 +66,9 @@
   font-size: 25px;
   text-decoration: none;
   color: white;
+}
+.github-icon:hover {
+  filter: drop-shadow(0 0 0.75rem rgb(38, 229, 246));
 }
 
 @keyframes App-logo-spin {
