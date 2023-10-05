@@ -8,14 +8,16 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <a
-          className="github-link text-gradient"
-          href="https://github.com/hewittmv/weather-react-project"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          VHM
-        </a>
+        <div className="initials">
+          <a
+            className="text-gradient "
+            href="https://github.com/hewittmv/weather-react-project"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            VHM
+          </a>
+        </div>
       </header>
       <div className="container">
         <div className="city-weather">
