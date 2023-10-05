@@ -24,9 +24,9 @@ function App() {
       </div>
       <footer className="App-footer">
         <img src={logo} className="App-logo" alt="logo" />
-        <p className="text-gradient">Weather App |</p>
+        <p>Weather App |</p>
         <a
-          className="github-link text-gradient"
+          className="github-link"
           href="https://github.com/hewittmv/weather-react-project"
           target="_blank"
           rel="noopener noreferrer"
