@@ -3,8 +3,6 @@ import "./Weather.css";
 import axios from "axios";
 import Forecast from "./Forecast";
 import Condition from "./Condition";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCrosshairs } from "@fortawesome/free-solid-svg-icons";
 
 export default function Weather(props) {
   const [weatherData, setWeatherData] = useState({ ready: false });
@@ -59,15 +57,6 @@ export default function Weather(props) {
                 value="Search"
                 className="search-button btn btn-primary shadow-sm border-bottom"
               />
-            </div>
-            <div className="col-2">
-              <button className="my-location">
-                <FontAwesomeIcon
-                  icon={faCrosshairs}
-                  style={{ color: "#e5e7eb" }}
-                  size="xl"
-                ></FontAwesomeIcon>
-              </button>
             </div>
           </div>
         </form>
