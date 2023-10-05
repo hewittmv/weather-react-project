@@ -12,16 +12,6 @@
   padding-left: 3%;
 }
 
-.my-location {
-  background: linear-gradient(
-    228deg,
-    rgba(29, 253, 252, 1) 14%,
-    rgba(39, 80, 120, 1) 73%
-  );
-  padding: 7px;
-  border-radius: 50%;
-  cursor: pointer;
-}
 .Condition {
   margin-top: 2%;
   padding: 2%;
