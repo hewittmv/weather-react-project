@@ -24,7 +24,7 @@ function App() {
       </div>
       <footer className="App-footer">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>Weather App |</p>
+        <p>React Weather App |</p>
         <a
           className="github-link"
           href="https://github.com/hewittmv/weather-react-project"
