@@ -26,14 +26,14 @@ function App() {
       </div>
       <footer className="App-footer">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>React Weather App |</p>
+
         <a
           className="github-link"
           href="https://github.com/hewittmv/weather-react-project"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Open Source Code{" "}
+          React Weather App | Open Source Code{" "}
           <FontAwesomeIcon
             icon={faGithub}
             style={{ color: "#e5e7eb" }}

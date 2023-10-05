@@ -1,8 +1,8 @@
 .text-gradient {
-  background: linear-gradient(
-    to top,
-    rgb(5, 79, 116) 12%,
-    rgb(189, 209, 229) 58%
+  background: radial-gradient(
+    circle,
+    rgba(40, 130, 227, 1) 25%,
+    rgba(232, 241, 234, 1) 66%
   );
   background-clip: text;
   -webkit-background-clip: text;
