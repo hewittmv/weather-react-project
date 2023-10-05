@@ -12,56 +12,6 @@
   padding-left: 3%;
 }
 
-.Condition {
-  margin-top: 2%;
-  padding: 2%;
-}
-.Condition,
-col-6 {
-  margin-left: 2%;
-}
-
-.Condition li {
-  list-style: none;
-  line-height: 70px;
-}
-h1 {
-  font-size: 250%;
-  padding: 0;
-  margin: 0;
-}
-.current-date-time {
-  padding: 0;
-  margin-top: 0;
-}
-
-.units {
-  font-size: 15px;
-  position: relative;
-  top: 12px;
-}
-.temperature-conversion {
-  display: inline-flex;
-}
-.description {
-  font-size: 25px;
-  margin-bottom: 0;
-  text-transform: capitalize;
-}
-.weather-description {
-  margin-bottom: 0;
-}
-.weather-description .temperature {
-  font-size: 45px;
-}
-.feels-like-temp .units {
-  font-size: 10px;
-  position: relative;
-  top: -4px;
-}
-li {
-  font-size: 20px;
-}
 .search-button {
   background-image: linear-gradient(
     to right,

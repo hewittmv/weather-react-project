@@ -1,5 +1,5 @@
 import React from "react";
-import "./Weather.css";
+import "./Condition.css";
 import FormattedDate from "./FormattedDate";
 import Conversion from "./Conversion";
 
